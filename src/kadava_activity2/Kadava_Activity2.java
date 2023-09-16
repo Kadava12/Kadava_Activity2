@@ -37,7 +37,7 @@ private static LinkedList<Book> bookList = new LinkedList<>();
         while (true) {
             displayMenu();
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
